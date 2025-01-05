@@ -103,5 +103,6 @@ async function fetchYourData({
 		organizationAttributes: [],
 		ticketAttributes: [],
 		prompt,
+		debugRaw: { ticketId: ticketId, ticketingPlatformType: ticketingPlatformType, ticketAttributes: ticketAttributes, userAttributes: userAttributes, organizationAttributes: organizationAttributes, messages: messages}
 	};
 }
